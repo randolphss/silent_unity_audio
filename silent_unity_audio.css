@@ -1,38 +1,30 @@
 
-.panel-2col--node-silent-unity-audio {
+.silent-unity-audio--node {
 /*  overflow: hidden;  */
 }
 
-.panel-2col--node-silent-unity-audio .panel-col-first {
+.silent-unity-audio--node .panel-col-first {
   float: left;
   width: 50%;
 }
-* html .panel-2col--node-silent-unity-audio .panel-col-first {
+* html .silent-unity-audio--node .panel-col-first {
   width: 49.9%;
 }
 
-.panel-2col--node-silent-unity-audio .panel-col-first .inside {
+.silent-unity-audio--node .panel-col-first .inside {
   margin: 10em .5em 1em 0;
-  float: left;
-  width: 35%;
 }
-* html .panel-2col--node-silent-unity-audio .panel-col-last {
+
+* html .silent-unity-audio--node .panel-col-last {
+  float: left; 
+  width: 49.9%;
+}
+* html .silent-unity-audio--node .panel-col-last {
   width: 49.9%;
 }
 
-.panel-panel .panel-col-last{
-padding: 0 10px 10px 10px;
-border: 1px solid #DEDEDE;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.panel-2col--node-silent-unity-audio .panel-col-last .inside {
-  float: left;
+.silent-unity-audio--node .panel-col-last .inside {
   margin: 0 0 1em .5em;
-}
-.panel-pane .pane-entity-field .pane-node-field-sua-headin .sua_headin {
-  float: right;
-  font: 24px bold;
 }
 
 #panels-edit-display .panel-pane,
@@ -40,6 +32,6 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin: .5em;
 }
 
-.panel-2col--node-silent-unity-audio .panel-separator {
+.silent-unity-audio--node .panel-separator {
   margin: 0 0 1em 0;
 }
