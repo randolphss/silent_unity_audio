@@ -2,13 +2,13 @@
 
 // Plugin definition
 $plugin = array(
-  'title' => t('Two column'),
-  'category' => t('Columns: 2'),
-  'icon' => 'silent-unity-audio.png',
-  'theme' => 'silent-unity-audio',
-  'css' => 'silent-unity-audio.css',
+  'title' => t('Silent Unity Audio Node Layout'),
+  'category' => t('two Columns Node'),
+  'icon' => 'silent_unity_audio.png',
+  'theme' => 'silent_unity_audio',
+  'css' => 'silent_unity_audio.css',
   'regions' => array(
     'left' => t('Left side'),
-    'right' => t('Right side')
+    'right' => t('Right side'),
   ),
 );
