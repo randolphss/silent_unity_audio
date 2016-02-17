@@ -3,12 +3,12 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Silent Unity Audio Node Layout'),
-  'category' => t('two Columns Node'),
+  'category' => t('node_twocol'),
   'icon' => 'silent_unity_audio.png',
-  'theme' => 'panels_twocol',
-  'css' => 'silent_unity_audio.css',
+  'theme' => 'panels-twocol--node',
+  'css' => 'panels_twocol_node.css',
   'regions' => array(
-    'left' => t('Left side'),
-    'right' => t('Right side'),
+    'left' => t('Left'),
+    'right' => t('Right'),
   ),
 );
