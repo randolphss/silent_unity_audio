@@ -20,6 +20,17 @@
   </div>
 
   <div class="panel-panel panel-col-last">
-    <div class="inside"><?php print $content['right']; ?></div>
+    <div class="inside">
+    <?php 
+     hide($content['right']); 
+     print render($content['body']);  ?>
+
+	<div class="white-fields-box">  
+		<?php
+ 			print render($content['field__sua_headin']); 
+ 			print render($content['field_sua_file']); 
+		?>
+      </div>
+    </div>
   </div>
 </div>

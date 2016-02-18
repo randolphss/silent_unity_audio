@@ -3,12 +3,16 @@
 /*  overflow: hidden;  */
 }
 
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .panel-2col .panel-col-first { 
   float: left; 
-  width: 50%; 
+  width: 37%;
 }
 * html .panel-2col .panel-col-first {
-  width: 49.9%;
+  width: 34.9%;
 }
 
 .panel-2col .panel-col-first .inside { 
@@ -17,14 +21,38 @@
 
 .panel-2col .panel-col-last { 
   float: left; 
-  width: 50%; 
+  width: 35%;
 }
 * html .panel-2col .panel-col-last {
-  width: 49.9%;
+  width: 34.9%;
 }
 
 .panel-2col .panel-col-last .inside { 
-  margin: 0 0 1em .5em;
+  margin: 10em 0 1em .5em;
+}
+
+.field-name-body .field-item.even > p {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 650;
+ font-size: 18px;
+}
+
+.white-fields-box {
+ padding: 0 10px 10px 10px;
+ border: 1px solid #DEDEDE;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.field-name-field--sua-headin .field-item.even > p {
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 10px 10px 10px 10px;
+ text-align: center;
+ font-size: 28px;
+ color: #007996;
+}
+
+.field-name-field--sua-file .field-item.even > p {
+ padding: 0 10px 60px 10px;
+ margin-bottom:  10px;
 }
 
 #panels-edit-display .panel-pane,
